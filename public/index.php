@@ -18,16 +18,13 @@ if (!empty($_POST['nome']) && !empty($_POST['email']) && !empty($_POST['g-recapt
         $query = $connection->prepare($sql);
         $foi = $query->execute(array(':nome' => $nome, ':email' => $email));
 
-        var_dump($foi);
-
-        die;
 
         echo('<script>alert("Deu bom!");</script>');
 
 
     } catch (Exception $e) {
 
-        echo('<script>alert("Deu ruim, tente novamente");</script>');
+        echo('<script>alert('.$e->getMessage().');</script>');
 
     }
 
