@@ -24,7 +24,7 @@ if (!empty($_POST['nome']) && !empty($_POST['email']) && !empty($_POST['g-recapt
 
     } catch (Exception $e) {
 
-        echo('<script>alert('.$e->getMessage().');</script>');
+        echo('<script>alert("'.$e->getMessage().'");</script>');
 
     }
 
