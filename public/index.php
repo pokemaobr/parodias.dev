@@ -1,7 +1,6 @@
 <?php
 
 require_once '../config.php';
-error_reporting(E_ALL);
 
 if (!empty($_POST['nome']) && !empty($_POST['email']) && !empty($_POST['g-recaptcha-response'])) {
 
@@ -9,7 +8,6 @@ if (!empty($_POST['nome']) && !empty($_POST['email']) && !empty($_POST['g-recapt
     $email = filter_var($_POST['email'], FILTER_SANITIZE_EMAIL);
 
     $connection = new PDO('mysql:dbname=parodias;host=localhost', $user, $password);
-    $connection->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
 
     try {
 
@@ -24,7 +22,7 @@ if (!empty($_POST['nome']) && !empty($_POST['email']) && !empty($_POST['g-recapt
 
     } catch (Exception $e) {
 
-        echo('<script>alert("'.$e->getMessage().'");</script>');
+        echo('<script>alert("Deu ruim");</script>');
 
     }
 
