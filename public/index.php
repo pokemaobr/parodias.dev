@@ -1,6 +1,7 @@
 <?php
 
 require_once '../config.php';
+error_reporting(E_ALL);
 
 if (!empty($_POST['nome']) && !empty($_POST['email']) && !empty($_POST['g-recaptcha-response'])) {
 
@@ -14,7 +15,9 @@ if (!empty($_POST['nome']) && !empty($_POST['email']) && !empty($_POST['g-recapt
         $sql = 'INSERT into LEADS (nome,email) VALUES (:nome,:email)';
 
         $query = $connection->prepare($sql);
-        $query->execute(array(':nome' => $nome, ':email' => $email));
+        $foi = $query->execute(array(':nome' => $nome, ':email' => $email));
+
+        var_dump($foi);
 
         echo('<script>alert("Deu bom!");</script>');
 
