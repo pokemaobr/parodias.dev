@@ -2,7 +2,7 @@
 
 [Parodias.dev](https://parodias.dev) é um projeto de desenvolvedores para desenvolvedores. Onde **criamos paródias com músicas, e a bancada decide qual é a melhor**.
 
-![parodias.dev][assets/parodias.png]
+![parodias.dev](assets/parodias.png)
 
 O concurso tem dois lados em sua competição:
 
