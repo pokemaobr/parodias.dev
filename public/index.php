@@ -9,6 +9,7 @@ if (!empty($_POST['nome']) && !empty($_POST['email']) && !empty($_POST['g-recapt
     $email = filter_var($_POST['email'], FILTER_SANITIZE_EMAIL);
 
     $connection = new PDO('mysql:dbname=parodias;host=localhost', $user, $password);
+    $connection->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
 
     try {
 
