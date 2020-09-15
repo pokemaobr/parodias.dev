@@ -517,6 +517,28 @@ ol {
   transition: all, 0.7s;
 }
 
+.doinferno h2 {
+  color: #ffffff;
+  font-size: 60px;
+  font-weight: 700;
+  line-height: 70px;
+  text-transform: uppercase;
+  margin-bottom: 38px;
+  position: relative;
+  opacity: 1;
+}
+
+.doinferno span {
+  color: #ffffff;
+  display: block;
+  font-size: 15px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  margin-bottom: 18px;
+  position: relative;
+  opacity: 1;
+}
+
 /*---------------------
   Work
 -----------------------*/
