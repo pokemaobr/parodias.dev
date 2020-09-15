@@ -20,6 +20,8 @@ if (!empty($_POST['nome']) && !empty($_POST['email']) && !empty($_POST['g-recapt
 
         var_dump($foi);
 
+        die;
+
         echo('<script>alert("Deu bom!");</script>');
 
 
