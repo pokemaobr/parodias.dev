@@ -13,7 +13,7 @@ if (!empty($_POST['nome']) && !empty($_POST['email']) && !empty($_POST['g-recapt
 
     try {
 
-        $sql = 'INSERT into LEADS (nome,email) VALUES (:nome,:email)';
+        $sql = 'INSERT into leads (nome,email) VALUES (:nome,:email)';
 
         $query = $connection->prepare($sql);
         $foi = $query->execute(array(':nome' => $nome, ':email' => $email));
