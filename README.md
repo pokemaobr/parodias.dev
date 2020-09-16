@@ -25,6 +25,7 @@ A bancada do [Parodias.dev](https://parodias.dev) é composta por:
 - Freaky Fog
 - Nario
 - Carol Donadel
+- Bruno Lopes
 
 ## Participe!
 
