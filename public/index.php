@@ -373,27 +373,24 @@ if (!empty($_POST['nome']) && !empty($_POST['email']) && !empty($_POST['g-recapt
                 </div>
             </div>
             <div class="col-lg-3 col-md-6 col-sm-6 p-0">
-                <div class="team__item team__item--second set-bg" data-setbg="img/team/caroldo.jpg">
+                <div class="team__item team__item--second set-bg" data-setbg="img/team/xtecna.jpg">
                     <div class="team__item__text">
-                        <h4>CAROL DONADEL</h4>
-                        <p>Comandante da Zoeira</p>
+                        <h4>xTecna</h4>
+                        <p>Codadora de Overlay de Torneio e xTécnica</p>
                         <div class="team__item__social">
-                            <a href="https://www.facebook.com/caroldonadel/" target="_blank"><i
-                                        class="fa fa-facebook"></i></a>
-                            <a href="https://twitter.com/acaroldonadel" target="_blank"><i
-                                        class="fa fa-twitter"></i></a>
-                            <a href="https://twitch.tv/caroldonadel" target="_blank"><i class="fa fa-twitch"></i></a>
-                            <a href="https://www.instagram.com/caroldonadel/" target="_blank"><i
-                                        class="fa fa-instagram"></i></a>
+                            <a href="https://www.twitter.com/WNXTecna"><i class="fa fa-facebook"></i></a>
+                            <a href="https://www.twitter.com/WNXTecna"><i class="fa fa-twitter"></i></a>
+                            <a href="https://twitch.tv/xtecna"><i class="fa fa-twitch"></i></a>
+                            <a href="https://www.twitter.com/WNXTecna"><i class="fa fa-instagram"></i></a>
                         </div>
                     </div>
                 </div>
             </div>
             <div class="col-lg-3 col-md-6 col-sm-6 p-0">
-                <div class="team__item team__item--third set-bg" data-setbg="img/team/team-1.jpg">
+                <div class="team__item team__item--third set-bg" data-setbg="img/team/profbrunolopes.jpg">
                     <div class="team__item__text">
-                        <h4>LEVXYCA</h4>
-                        <p>Universitária Dev</p>
+                        <h4>PROFESSOR BRUNO LOPES</h4>
+                        <p>Professor das Artes Aleatórias e Advogado</p>
                         <div class="team__item__social">
                             <a href="https://www.facebook.com/levxycas" target="_blank"><i
                                         class="fa fa-facebook"></i></a>
@@ -405,15 +402,18 @@ if (!empty($_POST['nome']) && !empty($_POST['email']) && !empty($_POST['g-recapt
                 </div>
             </div>
             <div class="col-lg-3 col-md-6 col-sm-6 p-0">
-                <div class="team__item team__item--four set-bg" data-setbg="img/team/team-4.jpg">
+                <div class="team__item team__item--four set-bg" data-setbg="img/team/caroldo.jpg">
                     <div class="team__item__text">
-                        <h4>AMANDA STONE</h4>
-                        <p>Videographer</p>
+                        <h4>CAROL DONADEL</h4>
+                        <p>Comandante da Zoeira</p>
                         <div class="team__item__social">
-                            <a href="#"><i class="fa fa-facebook"></i></a>
-                            <a href="#"><i class="fa fa-twitter"></i></a>
-                            <a href="#"><i class="fa fa-dribbble"></i></a>
-                            <a href="#"><i class="fa fa-instagram"></i></a>
+                            <a href="https://www.facebook.com/caroldonadel/" target="_blank"><i
+                                        class="fa fa-facebook"></i></a>
+                            <a href="https://twitter.com/acaroldonadel" target="_blank"><i
+                                        class="fa fa-twitter"></i></a>
+                            <a href="https://twitch.tv/caroldonadel" target="_blank"><i class="fa fa-twitch"></i></a>
+                            <a href="https://www.instagram.com/caroldonadel/" target="_blank"><i
+                                        class="fa fa-instagram"></i></a>
                         </div>
                     </div>
                 </div>
@@ -648,6 +648,13 @@ if (!empty($_POST['nome']) && !empty($_POST['email']) && !empty($_POST['g-recapt
                         <p>Fazemos live na twitch de programação e entretenimento dev. </p>
                         <a href="https://twitch.tv/pokemaobr" class="read__more" target="_blank">Conheça mais sobre o
                             nosso trabalho. <span class="arrow_right"></span></a>
+                    </div>
+
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-6">
+                    <div class="footer__option__item">
+                        <p>Art. 47 da Lei 9610/98 - Art. 47. São livres as paráfrases e paródias que não forem verdadeiras
+                            reproduções da obra originária nem lhe implicarem descrédito.</p>
                     </div>
                 </div>
             </div>
