@@ -520,7 +520,7 @@ if (!empty($_POST['nome']) && !empty($_POST['email']) && !empty($_POST['g-recapt
                     <div class="counter__item four__item">
                         <div class="counter__item__text">
                             <img src="img/icons/ci-4.png" alt="">
-                            <h2 class="counter_num">2</h2>
+                            <h2 class="counter_num">5</h2>
                             <p>Paródias Esperadas</p>
                         </div>
                     </div>
