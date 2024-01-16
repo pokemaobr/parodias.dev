@@ -295,21 +295,10 @@ if (!empty($_POST['nome']) && !empty($_POST['email']) && !empty($_POST['g-recapt
         </div>
         <div class="row">
             <div class="col-lg-3 col-md-6 col-sm-6 p-0">
-                <div class="team__item set-bg" data-setbg="https://namorarcom.dev/img/journey/interrogacao.png">
+                <div class="team__item set-bg" data-setbg="img/team/kastrowalker.jpg">
                     <div class="team__item__text">
-                        <h4>Mistério</h4>
-                        <p>Fiscal de Paródia</p>
-                        <div class="team__item__social">
-                            <a href="https://www.facebook.com/" target="_blank"><i
-                                        class="fa fa-facebook"></i></a>
-                            <a href="https://twitter.com/" target="_blank"><i
-                                        class="fa fa-twitter"></i></a>
-                            <a href="https://www.twitch.tv/" target="_blank"><i class="fa fa-twitch"></i></a>
-                            <a href="https://www.instagram.com/" target="_blank"><i
-                                        class="fa fa-instagram"></i></a>
-                        </div>
-                        <!-- <h4>KASTR0WALKER</h4>
-                        <p>Substituto de Pachi Codes</p>
+                        <h4>KASTR0WALKER</h4>
+                        <p>DJ e Organizador de Festas em SP</p>
                         <div class="team__item__social">
                             <a href="https://www.facebook.com/profile.php?id=100006781810430" target="_blank"><i
                                         class="fa fa-facebook"></i></a>
@@ -317,7 +306,7 @@ if (!empty($_POST['nome']) && !empty($_POST['email']) && !empty($_POST['g-recapt
                             <a href="https://www.twitch.tv/kastr0walker" target="_blank"><i class="fa fa-twitch"></i></a>
                             <a href="https://www.instagram.com/kastrowalker/" target="_blank"><i
                                         class="fa fa-instagram"></i></a>
-                        </div> !-->
+                        </div>
                     </div>
                 </div>
             </div>
