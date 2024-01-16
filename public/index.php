@@ -295,7 +295,7 @@ if (!empty($_POST['nome']) && !empty($_POST['email']) && !empty($_POST['g-recapt
         </div>
         <div class="row">
             <div class="col-lg-3 col-md-6 col-sm-6 p-0">
-                <div class="team__item set-bg" data-setbg="img/team/kastrowalker.jpg">
+                <div class="team__item set-bg" data-setbg="img/team/kastrowalker.png">
                     <div class="team__item__text">
                         <h4>KASTR0WALKER</h4>
                         <p>DJ e Organizador de Festas em SP</p>
