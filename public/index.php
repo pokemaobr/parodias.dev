@@ -311,17 +311,17 @@ if (!empty($_POST['nome']) && !empty($_POST['email']) && !empty($_POST['g-recapt
                 </div>
             </div>
             <div class="col-lg-3 col-md-6 col-sm-6 p-0">
-                <div class="team__item team__item--second set-bg" data-setbg="https://namorarcom.dev/img/journey/interrogacao.png">
+                <div class="team__item team__item--second set-bg" data-setbg="img/team/monikinha.jpg">
                     <div class="team__item__text">
-                    <h4>Mistério</h4>
-                    <p>Fiscal de Paródia</p>
+                    <h4>Monikinha</h4>
+                    <p>Maga das Comunidades</p>
                     <div class="team__item__social">
-                        <a href="https://www.facebook.com/" target="_blank"><i
+                        <a href="https://www.facebook.com/mocraveirodev/" target="_blank"><i
                                     class="fa fa-facebook"></i></a>
-                        <a href="https://twitter.com/" target="_blank"><i
+                        <a href="https://twitter.com/mocraveirodev/" target="_blank"><i
                                     class="fa fa-twitter"></i></a>
                         <a href="https://www.twitch.tv/" target="_blank"><i class="fa fa-twitch"></i></a>
-                        <a href="https://www.instagram.com/" target="_blank"><i
+                        <a href="https://www.instagram.com/mocraveirodev/" target="_blank"><i
                                     class="fa fa-instagram"></i></a>
                     </div>
                     <!-- <div class="team__item__text">
@@ -352,17 +352,17 @@ if (!empty($_POST['nome']) && !empty($_POST['email']) && !empty($_POST['g-recapt
                 </div>
             </div>
             <div class="col-lg-3 col-md-6 col-sm-6 p-0">
-                <div class="team__item team__item--four set-bg" data-setbg="https://namorarcom.dev/img/journey/interrogacao.png">
+                <div class="team__item team__item--four set-bg" data-setbg="img/team/tearing.jpg">
                     <div class="team__item__text">
-                        <h4>Mistéria</h4>
-                        <p>Fiscal de Paródia</p>
+                        <h4>Tearing5</h4>
+                        <p>Gambiarreiro e Dev de Palco</p>
                         <div class="team__item__social">
-                            <a href="https://www.facebook.com/" target="_blank"><i
+                            <a href="https://www.facebook.com/danillo.bosco" target="_blank"><i
                                         class="fa fa-facebook"></i></a>
-                            <a href="https://twitter.com/" target="_blank"><i
+                            <a href="https://twitter.com/Tearing5tv" target="_blank"><i
                                         class="fa fa-twitter"></i></a>
-                            <a href="https://www.twitch.tv/" target="_blank"><i class="fa fa-twitch"></i></a>
-                            <a href="https://www.instagram.com/" target="_blank"><i
+                            <a href="https://www.twitch.tv/Tearing5" target="_blank"><i class="fa fa-twitch"></i></a>
+                            <a href="https://www.instagram.com/danillobosco/" target="_blank"><i
                                         class="fa fa-instagram"></i></a>
                         </div>
                         <!--
@@ -409,17 +409,12 @@ if (!empty($_POST['nome']) && !empty($_POST['email']) && !empty($_POST['g-recapt
                 </div>
             </div>
             <div class="col-lg-3 col-md-6 col-sm-6 p-0">
-                <div class="team__item team__item--second set-bg" data-setbg="https://namorarcom.dev/img/journey/interrogacao.png">
+                <div class="team__item team__item--second set-bg" data-setbg="img/team/henry.jpeg">
                     <div class="team__item__text">
-                        <h4>Mistéria</h4>
-                        <p>Fiscal de Paródia</p>
+                        <h4>Luiz Henry Araujo</h4>
+                        <p>Especialista em Git</p>
                         <div class="team__item__social">
-                            <a href="https://www.facebook.com/" target="_blank"><i
-                                        class="fa fa-facebook"></i></a>
-                            <a href="https://twitter.com/" target="_blank"><i
-                                        class="fa fa-twitter"></i></a>
-                            <a href="https://www.twitch.tv/" target="_blank"><i class="fa fa-twitch"></i></a>
-                            <a href="https://www.instagram.com/" target="_blank"><i
+                      <a href="https://www.instagram.com/luizhenryaraujo/" target="_blank"><i
                                         class="fa fa-instagram"></i></a>
                         </div>
                         <!--<h4>xTecna</h4>
