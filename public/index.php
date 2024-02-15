@@ -7,11 +7,11 @@ if (!empty($_POST['nome']) && !empty($_POST['email']) && !empty($_POST['g-recapt
     $nome = filter_var($_POST['nome'], FILTER_SANITIZE_FULL_SPECIAL_CHARS);
     $email = filter_var($_POST['email'], FILTER_SANITIZE_EMAIL);
 
-   try {
+    try {
 
-       $connection = new PDO('mysql:dbname=parodias;host=localhost', $user, $password);
+        $connection = new PDO('mysql:dbname=parodias;host=localhost', $user, $password);
 
-       $sql = 'INSERT into leads (nome,email) VALUES (:nome,:email)';
+        $sql = 'INSERT into leads (nome,email) VALUES (:nome,:email)';
 
         $query = $connection->prepare($sql);
         $foi = $query->execute(array(':nome' => $nome, ':email' => $email));
@@ -170,7 +170,8 @@ if (!empty($_POST['nome']) && !empty($_POST['email']) && !empty($_POST['g-recapt
                         <span>#TCDPDTIDGEPTBR</span>
                         <h2>O que será essa disputa?</h2>
                     </div>
-                    <p>Seu objetivo é criar uma paródia com melodias baseadas em CARNAVAL usando elementos de TI para compor a
+                    <p>Seu objetivo é criar uma paródia com melodias baseadas em CARNAVAL usando elementos de TI para
+                        compor a
                         letra.</p>
                     <a href="https://twitch.tv/pokemaobr" class="primary-btn" target="_blank">TWITCH.TV/POKEMAOBR</a>
                 </div>
@@ -212,7 +213,8 @@ if (!empty($_POST['nome']) && !empty($_POST['email']) && !empty($_POST['g-recapt
                                 <img src="img/icons/si-4.png" alt="">
                             </div>
                             <h4>18 de fevereiro de 2024 às 15h00 é o momento!</h4>
-                            <p>Faremos uma live especial de Carnaval e iremos analisar ao vivo as paródias finalistas e distribuir os
+                            <p>Faremos uma live especial de Carnaval e iremos analisar ao vivo as paródias finalistas e
+                                distribuir os
                                 prêmios a quem ganhar.</p>
                         </div>
                     </div>
@@ -303,7 +305,8 @@ if (!empty($_POST['nome']) && !empty($_POST['email']) && !empty($_POST['g-recapt
                             <a href="https://www.facebook.com/profile.php?id=100006781810430" target="_blank"><i
                                         class="fa fa-facebook"></i></a>
                             <a href="https://twitter.com/kastrowalker" target="_blank"><i class="fa fa-twitter"></i></a>
-                            <a href="https://www.twitch.tv/kastr0walker" target="_blank"><i class="fa fa-twitch"></i></a>
+                            <a href="https://www.twitch.tv/kastr0walker" target="_blank"><i
+                                        class="fa fa-twitch"></i></a>
                             <a href="https://www.instagram.com/kastrowalker/" target="_blank"><i
                                         class="fa fa-instagram"></i></a>
                         </div>
@@ -313,26 +316,26 @@ if (!empty($_POST['nome']) && !empty($_POST['email']) && !empty($_POST['g-recapt
             <div class="col-lg-3 col-md-6 col-sm-6 p-0">
                 <div class="team__item team__item--second set-bg" data-setbg="img/team/monikinha.jpg">
                     <div class="team__item__text">
-                    <h4>Monikinha</h4>
-                    <p>Maga das Comunidades</p>
-                    <div class="team__item__social">
-                        <a href="https://www.facebook.com/mocraveirodev/" target="_blank"><i
-                                    class="fa fa-facebook"></i></a>
-                        <a href="https://twitter.com/mocraveirodev/" target="_blank"><i
-                                    class="fa fa-twitter"></i></a>
-                        <a href="https://www.twitch.tv/" target="_blank"><i class="fa fa-twitch"></i></a>
-                        <a href="https://www.instagram.com/mocraveirodev/" target="_blank"><i
-                                    class="fa fa-instagram"></i></a>
-                    </div>
-                    <!-- <div class="team__item__text">
-                        <h4>JP, O BRABO</h4>
-                        <p>Sênior de menor</p>
+                        <h4>Monikinha</h4>
+                        <p>Maga das Comunidades</p>
                         <div class="team__item__social">
-                            <a href="https://twitch.tv/jpbrab0" target="_blank"><i class="fa fa-facebook"></i></a>
-                            <a href="https://twitter.com/jpbrab0" target="_blank"><i class="fa fa-twitter"></i></a>
-                            <a href="https://twitch.tv/jpbrab0" target="_blank"><i class="fa fa-twitch"></i></a>
-                            <a href="https://instagram.com/jpres.dev" target="_blank"><i class="fa fa-instagram"></i></a>
-                        </div> -->
+                            <a href="https://www.facebook.com/mocraveirodev/" target="_blank"><i
+                                        class="fa fa-facebook"></i></a>
+                            <a href="https://twitter.com/mocraveirodev/" target="_blank"><i
+                                        class="fa fa-twitter"></i></a>
+                            <a href="https://www.twitch.tv/" target="_blank"><i class="fa fa-twitch"></i></a>
+                            <a href="https://www.instagram.com/mocraveirodev/" target="_blank"><i
+                                        class="fa fa-instagram"></i></a>
+                        </div>
+                        <!-- <div class="team__item__text">
+                            <h4>JP, O BRABO</h4>
+                            <p>Sênior de menor</p>
+                            <div class="team__item__social">
+                                <a href="https://twitch.tv/jpbrab0" target="_blank"><i class="fa fa-facebook"></i></a>
+                                <a href="https://twitter.com/jpbrab0" target="_blank"><i class="fa fa-twitter"></i></a>
+                                <a href="https://twitch.tv/jpbrab0" target="_blank"><i class="fa fa-twitch"></i></a>
+                                <a href="https://instagram.com/jpres.dev" target="_blank"><i class="fa fa-instagram"></i></a>
+                            </div> -->
                     </div>
                 </div>
             </div>
@@ -340,7 +343,7 @@ if (!empty($_POST['nome']) && !empty($_POST['email']) && !empty($_POST['g-recapt
                 <div class="team__item team__item--third set-bg" data-setbg="img/team/levxyca.jpg">
                     <div class="team__item__text">
                         <h4>LEVXYCA</h4>
-                        <p>Estagiária Dev</p>
+                        <p>Community Manager & Flutterfly</p>
                         <div class="team__item__social">
                             <a href="https://www.facebook.com/levxycas" target="_blank"><i
                                         class="fa fa-facebook"></i></a>
@@ -380,32 +383,40 @@ if (!empty($_POST['nome']) && !empty($_POST['email']) && !empty($_POST['g-recapt
         </div>
         <div class="row">
             <div class="col-lg-3 col-md-6 col-sm-6 p-0">
-                <div class="team__item set-bg" data-setbg="https://namorarcom.dev/img/journey/interrogacao.png">
-                   <div class="team__item__text">
-                       <h4>Mistério</h4>
-                       <p>Fiscal de Paródia</p>
-                       <div class="team__item__social">
-                           <a href="https://www.facebook.com/" target="_blank"><i
-                                       class="fa fa-facebook"></i></a>
-                           <a href="https://twitter.com/" target="_blank"><i
-                                       class="fa fa-twitter"></i></a>
-                           <a href="https://www.twitch.tv/" target="_blank"><i class="fa fa-twitch"></i></a>
-                           <a href="https://www.instagram.com/" target="_blank"><i
-                                       class="fa fa-instagram"></i></a>
-                       </div>
-                       <!-- <h4>NARIO__</h4>
-                        <p>Comedor de Açaí e Gritaria</p>
+                <div class="team__item set-bg" data-setbg="img/team/xtecna.jpg">
+                    <div class="team__item__text">
+                        <h4>xTecna</h4>
+                        <p>Resolvedora de URI e Comentarista de Treta</p>
                         <div class="team__item__social">
-                            <a href="https://www.facebook.com/nario93/" target="_blank"><i
-                                        class="fa fa-facebook"></i></a>
-                            <a href="https://twitter.com/higor_barbossa" target="_blank"><i
-                                        class="fa fa-twitter"></i></a>
-                            <a href="https://www.twitch.tv/nario__" target="_blank"><i class="fa fa-twitch"></i></a>
-                            <a href="https://www.instagram.com/higor.barbossa/" target="_blank"><i
-                                        class="fa fa-instagram"></i></a>
+                                <a href="https://twitch.tv/xtecna"><i class="fa fa-twitch"></i></a>
                         </div>
-                        -->
-                   </div>
+
+                        <!-- <div class="team__item set-bg" data-setbg="https://namorarcom.dev/img/journey/interrogacao.png">
+                           <div class="team__item__text">
+                               <h4>Mistério</h4>
+                               <p>Fiscal de Paródia</p>
+                               <div class="team__item__social">
+                                   <a href="https://www.facebook.com/" target="_blank"><i
+                                               class="fa fa-facebook"></i></a>
+                                   <a href="https://twitter.com/" target="_blank"><i
+                                               class="fa fa-twitter"></i></a>
+                                   <a href="https://www.twitch.tv/" target="_blank"><i class="fa fa-twitch"></i></a>
+                                   <a href="https://www.instagram.com/" target="_blank"><i
+                                               class="fa fa-instagram"></i></a>
+                               </div>
+                               <h4>NARIO__</h4>
+                                <p>Comedor de Açaí e Gritaria</p>
+                                <div class="team__item__social">
+                                    <a href="https://www.facebook.com/nario93/" target="_blank"><i
+                                                class="fa fa-facebook"></i></a>
+                                    <a href="https://twitter.com/higor_barbossa" target="_blank"><i
+                                                class="fa fa-twitter"></i></a>
+                                    <a href="https://www.twitch.tv/nario__" target="_blank"><i class="fa fa-twitch"></i></a>
+                                    <a href="https://www.instagram.com/higor.barbossa/" target="_blank"><i
+                                                class="fa fa-instagram"></i></a>
+                                </div>
+                                -->
+                    </div>
                 </div>
             </div>
             <div class="col-lg-3 col-md-6 col-sm-6 p-0">
@@ -414,7 +425,7 @@ if (!empty($_POST['nome']) && !empty($_POST['email']) && !empty($_POST['g-recapt
                         <h4>Luiz Henry Araujo</h4>
                         <p>Especialista em Git</p>
                         <div class="team__item__social">
-                      <a href="https://www.instagram.com/luizhenryaraujo/" target="_blank"><i
+                            <a href="https://www.instagram.com/luizhenryaraujo/" target="_blank"><i
                                         class="fa fa-instagram"></i></a>
                         </div>
                         <!--<h4>xTecna</h4>
@@ -438,7 +449,8 @@ if (!empty($_POST['nome']) && !empty($_POST['email']) && !empty($_POST['g-recapt
                                         class="fa fa-facebook"></i></a>
                             <a href="https://twitter.com/brunolopesjn" target="_blank"><i class="fa fa-twitter"></i></a>
                             <a href="https://twitch.tv/profbrunolopes" target="_blank"><i class="fa fa-twitch"></i></a>
-                            <a href="https://twitch.tv/profbrunolopes" target="_blank"><i class="fa fa-instagram"></i></a>
+                            <a href="https://twitch.tv/profbrunolopes" target="_blank"><i
+                                        class="fa fa-instagram"></i></a>
                         </div>
                     </div>
                 </div>
@@ -472,45 +484,45 @@ if (!empty($_POST['nome']) && !empty($_POST['email']) && !empty($_POST['g-recapt
 <!-- Counter Section Begin -->
 <section class="counter">
     <div class="container">
-            <div class="row">
-                <div class="col-lg-3 col-md-6 col-sm-6">
-                    <div class="counter__item">
-                        <div class="counter__item__text">
-                            <img src="img/icons/ci-1.png" alt="">
-                            <h2 class="counter_num">62</h2>
-                            <p>Viewers / Hora</p>
-                        </div>
+        <div class="row">
+            <div class="col-lg-3 col-md-6 col-sm-6">
+                <div class="counter__item">
+                    <div class="counter__item__text">
+                        <img src="img/icons/ci-1.png" alt="">
+                        <h2 class="counter_num">62</h2>
+                        <p>Viewers / Hora</p>
                     </div>
                 </div>
-                <div class="col-lg-3 col-md-6 col-sm-6">
-                    <div class="counter__item second__item">
-                        <div class="counter__item__text">
-                            <img src="img/icons/ci-2.png" alt="">
-                            <h2 class="counter_num">14337</h2>
-                            <p>Viewers / Mês</p>
-                        </div>
+            </div>
+            <div class="col-lg-3 col-md-6 col-sm-6">
+                <div class="counter__item second__item">
+                    <div class="counter__item__text">
+                        <img src="img/icons/ci-2.png" alt="">
+                        <h2 class="counter_num">14337</h2>
+                        <p>Viewers / Mês</p>
                     </div>
                 </div>
-                <div class="col-lg-3 col-md-6 col-sm-6">
-                    <div class="counter__item third__item">
-                        <div class="counter__item__text">
-                            <img src="img/icons/ci-3.png" alt="">
-                            <h2 class="counter_num">200</h2>
-                            <p>Subscribers</p>
-                        </div>
+            </div>
+            <div class="col-lg-3 col-md-6 col-sm-6">
+                <div class="counter__item third__item">
+                    <div class="counter__item__text">
+                        <img src="img/icons/ci-3.png" alt="">
+                        <h2 class="counter_num">200</h2>
+                        <p>Subscribers</p>
                     </div>
                 </div>
-                <div class="col-lg-3 col-md-6 col-sm-6">
-                    <div class="counter__item four__item">
-                        <div class="counter__item__text">
-                            <img src="img/icons/ci-4.png" alt="">
-                            <h2 class="counter_num">5</h2>
-                            <p>Paródias Esperadas</p>
-                        </div>
+            </div>
+            <div class="col-lg-3 col-md-6 col-sm-6">
+                <div class="counter__item four__item">
+                    <div class="counter__item__text">
+                        <img src="img/icons/ci-4.png" alt="">
+                        <h2 class="counter_num">5</h2>
+                        <p>Paródias Esperadas</p>
                     </div>
                 </div>
             </div>
         </div>
+    </div>
     </div>
 </section>
 <!-- Counter Section End -->
@@ -693,7 +705,8 @@ if (!empty($_POST['nome']) && !empty($_POST['email']) && !empty($_POST['g-recapt
                 </div>
                 <div class="col-lg-4 col-md-6 col-sm-6">
                     <div class="footer__option__item">
-                        <p>Art. 47 da Lei 9610/98 - Art. 47. São livres as paráfrases e paródias que não forem verdadeiras
+                        <p>Art. 47 da Lei 9610/98 - Art. 47. São livres as paráfrases e paródias que não forem
+                            verdadeiras
                             reproduções da obra originária nem lhe implicarem descrédito.</p>
                     </div>
                 </div>
